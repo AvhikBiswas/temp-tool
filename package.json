@@ -1,0 +1,19 @@
+{
+  "name": "audio_word",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
